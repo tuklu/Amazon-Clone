@@ -1,1 +1,1 @@
-# This is my version of Amazon
+# Amazon clone by **Jisnu Kalita**
