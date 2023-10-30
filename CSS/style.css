@@ -8,9 +8,18 @@
 body {
     overflow-x: hidden;
 }
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+
+/* hovour ellement effect */
+.highlight {
+    border: 1px solid transparent;
+    background-color: solid transparent;
+    border-radius: 10px;
+}
+.highlight:hover {
+    border: 1px solid #5a5353;
+    background-color: solid #5a5353;
+    border-radius: 10px;
+}
 
 /* navigarion bar */
 .navbar {
@@ -21,15 +30,17 @@ body {
 
 /* nav left section */
 .nav-left{
-    height: 60px;
+    /* height: 60px; */
     width: auto;
     display: flex;
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
 /* logo */
 
 .nav-logo {
-    height: 50px;
+    height: 53px;
     width: 113px;
     /* align-items: center; */
 }
@@ -38,18 +49,6 @@ body {
     background-size: cover;
     height: 50px;
     width: 100%;
-}
-
-/* hovour ellement effect */
-
-.highlight {
-    border: 1px solid transparent;
-    background-color: solid transparent;
-    border-radius: 10px;
-}
-.highlight:hover {
-    border: 1px solid #5a5353;
-    background-color: solid #5a5353;
 }
 
 /* Delevery address selection */
@@ -66,28 +65,23 @@ body {
 }
 .address-txt {
     margin-bottom: 0.1rem;
-    
-    
-
 }
+
 .address-to {
     font-size: 0.6rem;
     color: #d4d0d0;
     margin-bottom: 0.1rem;
-    
-
 }
+
 .address-where {
     font-size: 0.8rem;
     margin-right: 0.5rem;
-    
-
 }
 
 /* Search box */
 
 .nav-search {
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 45%;
     
 }
