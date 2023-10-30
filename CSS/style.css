@@ -1,0 +1,116 @@
+* {
+    background-color: #363232;
+    color: #ffffff;
+    margin: 0px;
+    font-family: Arial,sans-serif;
+    border: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* navigarion bar */
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;   
+}
+
+/* nav left section */
+.nav-left{
+    height: 60px;
+    width: auto;
+    display: flex;
+}
+
+/* logo */
+
+.nav-logo {
+    height: 50px;
+    width: 113px;
+    /* align-items: center; */
+}
+.logo {
+    background-image: url("../Amazon_Clone_Resources/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* hovour ellement effect */
+
+.highlight {
+    border: 1px solid transparent;
+    background-color: solid transparent;
+    border-radius: 10px;
+}
+.highlight:hover {
+    border: 1px solid #5a5353;
+    background-color: solid #5a5353;
+}
+
+/* Delevery address selection */
+.nav-address{
+    display: flex;
+    align-items: center;
+}
+.address-icon {
+    margin-top: 0.8rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    font-size: 1rem;
+    
+}
+.address-txt {
+    margin-bottom: 0.1rem;
+    
+    
+
+}
+.address-to {
+    font-size: 0.6rem;
+    color: #d4d0d0;
+    margin-bottom: 0.1rem;
+    
+
+}
+.address-where {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    
+
+}
+
+/* Search box */
+
+.nav-search {
+    background-color: aqua;
+    width: 45%;
+    
+}
+/* .search-select {
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
